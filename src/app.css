@@ -1,0 +1,11 @@
+@import 'tailwindcss';
+@plugin "daisyui";
+@plugin "daisyui" {
+  themes: all;
+}
+
+/* *{
+  scroll-behavior: smooth;
+  overflow: hidden;
+  @apply break-words
+} */
