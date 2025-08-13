@@ -189,7 +189,7 @@
 		</div>
 	</section>
 
-	<div class="h-screen w-full overflow-x-hidden">
+	<div class="scroll-hidden h-screen w-full overflow-x-hidden">
 		{@render children()}
 	</div>
 
@@ -216,10 +216,10 @@
 			<a class="link link-hover">Privacy policy</a>
 			<a class="link link-hover">Cookie policy</a>
 		</nav>
-		<form>
+		<!-- <form>
 			<h6 class="footer-title">Newsletter</h6>
 			<fieldset class="w-80">
-				<!-- svelte-ignore a11y_label_has_associated_control -->
+				svelte-ignore a11y_label_has_associated_control
 				<label class="text-white">Enter your email address</label>
 				<div class="join">
 					<input
@@ -232,6 +232,6 @@
 					>
 				</div>
 			</fieldset>
-		</form>
+		</form> -->
 	</footer>
 </div>

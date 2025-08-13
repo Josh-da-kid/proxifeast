@@ -109,7 +109,7 @@
 	<div class="mx-auto mt-8 flex flex-col items-center justify-center gap-y-2 text-lg">
 		<h1 class="text-3xl font-bold text-[#008753] md:text-5xl">How It Works</h1>
 
-		<div class="mt-4 ml-4 grid gap-8 md:grid-cols-3">
+		<div class="mt-4 ml-4 grid gap-8 p-2 md:grid-cols-3">
 			<div>
 				<h3 class="mb-2 text-2xl font-bold text-[#FF9500]">1. Scan</h3>
 
