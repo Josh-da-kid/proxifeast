@@ -38,7 +38,7 @@
 </script>
 
 <svelte:head>
-	<link rel="icon" href={favicon} />
+	<link rel="icon" href={'/Screenshot from 2025-08-04 09-03-32.png'} />
 </svelte:head>
 
 <div class="min-h-screen w-screen select-none">
@@ -189,7 +189,7 @@
 		</div>
 	</section>
 
-	<div class="scroll-hidden h-screen w-full overflow-x-hidden">
+	<div class="scroll-hidden min-h-screen w-full overflow-x-hidden">
 		{@render children()}
 	</div>
 
